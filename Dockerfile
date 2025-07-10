@@ -1,5 +1,5 @@
 # Stage 1: Build
-FROM rust:1.72 as builder
+FROM rust:1.78 as builder  # atau rust:latest juga bisa
 
 WORKDIR /app
 COPY . .
