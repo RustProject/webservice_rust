@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: webservice-rust
+    runtime: rust
+    buildCommand: "cargo build --release"
+    startCommand: "./target/release/webservice_rust"
+    plan: free
